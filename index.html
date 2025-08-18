@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House</title>
+    <link rel="stylesheet" href="./style.css">
     <!-- tailwind cdn -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
@@ -14,7 +15,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
+<body class="manrope-font">
     <!-- banner section -->
     <div class="parent-div flex flex-col md:flex-row justify-between min-h-[200px] max-w-[1400px] mx-auto">
         <div class="l-div">
@@ -162,6 +163,55 @@
             </div>
         </div>
     </div>
+    <!-- footer section  -->
+    <footer class="bg-[#ffe7e6] py-[50px] mt-[100px]">
+        <div class="footer-parent mt-[100px] max-w-[1400px] mx-auto">
+            <div class="flex justify-between items-center">
+                <img src="./images/cup.png" alt="">
+                <div class="flex items-center mr-8">
+                    <p class="mr-8">Ready to get strated?</p>
+                    <button class="bg-gradient-to-r 
+            from-[#ff8938] to-[#ff0000] text-white rounded-lg py-2 px-3">Get Started</button>
+                </div>
+            </div>
+            <div class="flex flex-col items-center text-center md:text-left md:flex-row justify-between mt-[50px]">
+                <div>
+                    <p class="font-semibold text-lg">Quick Links</p>
+                    <p class="mt-2">Home</p>
+                    <p class="mt-2">About Us</p>
+                    <p class="mt-2">Insurance</p>
+                    <p class="mt-2">Privacy Policy</p>
+                </div>
+
+                <div>
+                    <p class="font-semibold text-lg">Our Service</p>
+                    <p class="mt-2">Life Insurance</p>
+                    <p class="mt-2">Car Insurance</p>
+                    <p class="mt-2">Health Insurance</p>
+                    <p class="mt-2">House Insurance</p>
+                </div>
+
+                <div>
+                    <p class="font-semibold text-lg">Help</p>
+                    <p class="mt-2">FAQs</p>
+                    <p class="mt-2">Contact Us</p>
+                </div>
+
+                <div>
+                    <p class="font-semibold text-lg">Subscribe to our <br> newsletter</p>
+                    <input type="text" placeholder="Email address" class="border-b-1 outline-none pb-2 mt-5">
+                    <button class="text-white h-[30px] w-[30px] rounded-full bg-gradient-to-r 
+            from-[#ff8938] to-[#ff0000]"><i class="fa-solid fa-angle-right"></i></button>
+                    <div class="mt-5">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center mt-[50px]">© 2027 UIDesign.to - All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
